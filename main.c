@@ -2,7 +2,17 @@
 
 
 void mergeArrays(int a[], int b[], int n, int m) {
+    for (int i = m -1; i >= 0; i--) {
+        if (a[n-1] > b[i]) {
+            int last = a[n - 1];
+            int j = n - 2;
 
+            while (j >= 0 && a[j] > b[j]) {
+
+            }
+
+        }
+    }
 }
 
 int main(void) {
